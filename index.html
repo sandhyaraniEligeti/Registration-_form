@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Registration</title>
     <link href="./css/app.css" rel="stylesheet" />
+    <script>
+        function registerBadge() {
+          var SuccessMsg = "Hi! Your Registration Completed Successfully"
+          alert(SuccessMsg);
+        }
+      </script>
 </head>
-
 <body>
-
     <div class="main_Container">
         <h1>REGISTRATION FORM</h1>
-        <form>
-        <div class="fields_div">
+        <form id="myForm" action="#" onsubmit="registerBadge()">
+            <div class="fields_div">
             <div class="left_field">
                 <label>First Name</label>
                 <label class="star">*</label>
